@@ -31,7 +31,7 @@ import Landing from "./Landing";
 
 const Router = createBrowserRouter([
     {
-      element: <Landing   />,
+      element: <Landing/>,
       children: [
         {
           path: "/",

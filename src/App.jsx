@@ -6,7 +6,8 @@ import { Route, RouterProvider, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import Nav from './components/Nav'
 import Login from './components/Login'
-// import Router from './Router'
+import Footer from './components/Footer'
+import Router from './Router'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,13 +17,14 @@ function App() {
     {/* //import font style */}
     <div className='josefin-sans-text'>
 
-    <Nav/>
+    {/* <Nav/>
      <Routes >
       <Route path='/' element={<Home/>} />
       <Route path='/login' element={<Login/>}/>
      </Routes>
+     <Footer/> */}
 
-     {/* <RouterProvider router={Router}/> */}
+     <RouterProvider router={Router}/>
     </div>
     </>
   )
